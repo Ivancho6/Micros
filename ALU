@@ -1,5 +1,5 @@
 module MIPSALU (ALUctl, A, B, ALUut, Zero);
-  input [3:0] ALUctl;
+	input [3:0] ALUctl;
 	input [31:0] A,B;
 	output reg [31:0] ALUOut;
 	Output Zero;
